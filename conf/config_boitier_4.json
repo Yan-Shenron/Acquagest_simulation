@@ -1,0 +1,60 @@
+{
+  "boitier": {
+    "id_boitier": 4,
+    "noSerie": "4230100004",
+    "activate_date": "21-11-2023",
+    "first_connect": "16-11-2023",
+    "version": "4.4",
+    "ph_module": 0,
+    "since_connect": "13-11-2023",
+    "last_moved": "25-11-2023",
+    "last_update": "10-11-2023",
+    "Isopen": 0,
+    "comment": "Boitier prototype 4",
+    "hasGSM": 0,
+    "state": 1,
+    "modeBoost": 0,
+    "config": {
+      "coilStateA": 0,
+      "coilStateB": 0,
+      "generatorStateA": 0,
+      "generatorStateB": 0,
+      "connexion_type": "Ethernet",
+      "language": "FR"
+    },
+    "int_capt": {
+      "1": {
+        "id": "hdht11",
+        "label": "Humidité interne",
+        "unite": "%",
+        "sensor_type": "Dht11",
+        "status": 1
+      },
+      "2": {
+        "id": "tdht11",
+        "label": "Temperature interne",
+        "unite": "°C",
+        "sensor_type": "Dht11",
+        "status": 1
+      }
+    },
+    "ext_capt": {
+      "1": {
+        "id": "579B4AE18F36488F",
+        "label": "Capteur 1",
+        "unite": "°C",
+        "type": "dsb18b20",
+        "status": 1
+      }
+    },
+    "last_connect": "06-11-2023"
+  },
+  "client": {
+    "id_client": 0,
+    "customerName": "Non attribué",
+    "address": "Non attribué",
+    "postcode": "Non attribué",
+    "city": "Non attribué",
+    "country": "Non attribué"
+  }
+}
